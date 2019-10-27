@@ -15,3 +15,11 @@ totalpaid=?
 >>> totalpaid=charge+totaltax
 >>> totalpaid
 15750.0
+
+>>> charge=30000
+>>> tax=50/1000
+>>> totaltax=charge*tax
+>>> totalpaid=charge+totaltax
+>>> totalpaid
+31500.0
+>>>
